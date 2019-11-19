@@ -12,14 +12,12 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.apache.catalina.tribes.util.Arrays;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
-import map.bit.kakaomap.kakaoDAO;
-import map.bit.kakaomap.kakaoVO;
-import map.bit.kakaomap.replyVO;
-import room.model.RoomVO;
+import src.map.bit.kakaomap.kakaoVO;
+import src.map.bit.kakaomap.replyVO;
+import src.room.model.RoomVO;
 
 @WebServlet("/ArrayServlet.do")
 public class ArrayServlet extends HttpServlet {
